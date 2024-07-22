@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>online shopping</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="login.php">Home</a>
+        <a href="contact.html">contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <form class="Contact_form" action="sendmail.php" method="post">
+        <h2>CONTACT US</h2>
+        <input type="text" id="name" placeholder="Your Name"  required />
+        <input type="email" id="Email" placeholder="Email id" name="email" required />
+        <input type="text" id="phone" placeholder="Phone no." required />
+        <textarea id="message" rows="4" placeholder="How can i Help you?" name="message" required></textarea>
+        <button type="submit" id="submit" name="submit">
+          Send
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
